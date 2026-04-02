@@ -1,16 +1,50 @@
-# React + Vite
+# Cultural Events Booking - Frontend 💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React-based frontend for the Cultural Events Booking System.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-   **Dynamic Event Catalog**: Browse events with real-time updates.
+-   **Secure Authentication**: Integrated JWT-based login and registration.
+-   **User Dashboard**: View and manage bookings.
+-   **Admin Panel**: Full CRUD operations for event and user management.
+-   **Responsive UI**: Modern design using Tailwind CSS.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **React 19**: Modern component-based architecture.
+-   **Vite**: Extremely fast build tool and HMR.
+-   **Tailwind CSS**: Utility-first CSS framework for custom design.
+-   **React Router v7**: For seamless navigation.
+-   **Axios**: For API communication with the backend.
+-   **Lucide React**: Beautiful icons.
+-   **React Toastify**: Elegant user notifications.
 
-## Expanding the ESLint configuration
+## 🏁 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+-   Root project dependencies must be installed (`npm run install:all`).
+
+### Running the Frontend
+
+From the root directory:
+```bash
+npm run dev --prefix frontend
+```
+Or from the `frontend` folder:
+```bash
+npm run dev
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
+
+## 📂 Structure
+
+-   `src/components`: Reusable UI components.
+-   `src/pages`: Main application views.
+-   `src/hooks`: Custom React hooks for logic.
+-   `src/assets`: Images and global styles.
+
+---
+*For full project setup including the backend and database, see the [Root README](../README.md).*
